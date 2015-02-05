@@ -1,0 +1,17 @@
+body{
+	color:##402e2f;
+	font-size: 16px;
+	font-family: georgia, serif;
+	background-image:
+		url('images/coverpicture.jpeg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+img{
+	width:100%;
+}
+div{
+	box-shadow: 5px 5px 5px #888888;
+	width: 33%;
+}
