@@ -1,11 +1,24 @@
-@import url(images/fonts/BickhamScriptPro-Semibold.otf);
+@import url(images/Fonts/BickhamScriptPro-Semibold.otf);
+@import url(images/Fonts/MrsEavesOT-Roman.otf);
+@import url(images/Fonts/EngraversLTStdBoldFace.otf);
+@import url(images/Fonts/MrsEavesOTItalic.otf);
 
-@import url(images/fonts/MrsEavesOT-Roman.otf);
-
-@import url(images/fonts/EngraversLTStdBoldFace.otf);
-
-@import url(images/fonts/MrsEavesOTItalic.otf);
-
+@font-face{
+	font-family:BickhamScriptPro-Semibold;
+	src: url(images/Fonts/BickhamScriptPro-Semibold.otf);
+}
+@font-face{
+	font-family:MrsEavesOT-Roman;
+	src: url(images/Fonts/MrsEavesOT-Roman.otf);
+}
+@font-face{
+	font-family:EngraversLTStdBoldFace;
+	src: url(images/Fonts/EngraversLTStdBoldFace.otf);
+}
+@font-face{
+	font-family:MrsEavesOTItalic;
+	src: url(images/Fonts/MrsEavesOTItalic.otf);
+}
 *{
 	margin: 0;
 	padding: 0;
@@ -22,22 +35,6 @@ body{
 	background-size:100%;
 	background-attachment: fixed;
 	font-family:'MrsEavesOT-Roman', serif;
-}
-@font-face{
-	font-family:BickhamScriptPro-Semibold;
-	src: url(images/fonts/BickhamScriptPro-Semibold.otf);
-}
-@font-face{
-	font-family:MrsEavesOT-Roman;
-	src: url(images/fonts/MrsEavesOT-Roman.otf);
-}
-@font-face{
-	font-family:EngraversLTStdBoldFace;
-	src: url(images/fonts/EngraversLTStdBoldFace.otf);
-}
-@font-face{
-	font-family:MrsEavesOTItalic;
-	src: url(images/fonts/MrsEavesOTItalic.otf);
 }
 h1{
 	font-family:'BickhamScriptPro-Semibold', serif;
