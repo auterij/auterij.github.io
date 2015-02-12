@@ -27,12 +27,12 @@ body{
 	src: url(images/fonts/BickhamScriptPro-Semibold.otf);
 }
 @font-face{
-	font-family:MrsEavesOT;
+	font-family:MrsEavesOT-Roman;
 	src: url(images/fonts/MrsEavesOT-Roman.otf);
 }
 @font-face{
-	font-family:EngraversLTStd;
-	src: url(images/fonts/EngraversLTStdBoldface.otf);
+	font-family:EngraversLTStdBoldFace;
+	src: url(images/fonts/EngraversLTStdBoldFace.otf);
 }
 @font-face{
 	font-family:MrsEavesItalic;
