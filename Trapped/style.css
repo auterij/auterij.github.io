@@ -37,6 +37,15 @@ body{
 nav {
 	float:right;
 }
+nav ul{
+	font-family: 'EngraversLTStdBoldFace', serif;
+	list-style-type:none;
+	margin: 4em 0em 0em 0;
+}
+nav li {
+	float:left;
+	margin:0 1em;
+}
 header div {
 	float:left;
 	text-align:center;
@@ -49,10 +58,6 @@ h1{
 p{
 	width:22em;
 	margin: 0em 0em 0em .5em;
-}
-ul{
-	font-family: 'EngraversLTStdBoldFace', serif;
-	margin: 4em 0em 0em 0;
 }
 #slogan{
 	font-style: italic;
