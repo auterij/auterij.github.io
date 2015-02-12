@@ -35,7 +35,7 @@ body{
 	src: url(images/fonts/EngraversLTStdBoldFace.otf);
 }
 @font-face{
-	font-family:MrsEavesItalic;
+	font-family:MrsEavesOTItalic;
 	src: url(images/fonts/MrsEavesOTItalic.otf);
 }
 h1{
@@ -47,18 +47,18 @@ p{
 	margin: 0em 0em 0em .5em;
 }
 ul{
-	font-family: 'EngraversLTStd', serif;
+	font-family: 'EngraversLTStdBoldFace', serif;
 	margin: 4em 0em 0em 60em;
 	line-height: 3em;
 }
 #slogan{
-	font-family:'MrsEavesOT', serif;
+	font-family:'MrsEavesOT-Roman', serif;
 	font-style: italic;
 	font-size: 1.3em;
 	margin-left: 1em;
 }
 #author{
-	font-family:'EngraversLTStd', serif;
+	font-family:'EngraversLTStdBoldFace', serif;
 	margin-left:6em;
 	font-size:1.1em;
 }
