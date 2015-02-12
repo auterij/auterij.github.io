@@ -9,6 +9,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 body{
 	color:##402e2f;
@@ -20,7 +21,7 @@ body{
 	background-repeat:no-repeat;
 	background-size:100%;
 	background-attachment: fixed;
-	font-family:'MrsEavesOT', serif;
+	font-family:'MrsEavesOT-Roman', serif;
 }
 @font-face{
 	font-family:BickhamScriptPro-Semibold;
