@@ -1,0 +1,93 @@
+@import url('images/Fonts/BickhamScriptPro-Semibold.otf');
+@import url('images/Fonts/MrsEavesOT-Roman.otf');
+@import url('images/Fonts/EngraversLTStdBoldFace.otf');
+@import url('images/Fonts/MrsEavesOTItalic.otf');
+
+@font-face{
+	font-family:BickhamScriptPro-Semibold;
+	src: url('images/Fonts/BickhamScriptPro-Semibold.otf');
+}
+@font-face{
+	font-family:MrsEavesOT-Roman;
+	src: url('images/Fonts/MrsEavesOT-Roman.otf');
+}
+@font-face{
+	font-family:EngraversLTStdBoldFace;
+	src: url('images/Fonts/EngraversLTStdBoldFace.otf');
+}
+@font-face{
+	font-family:MrsEavesOTItalic;
+	src: url('images/Fonts/MrsEavesOTItalic.otf');
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	color:#3D3F40;
+	font-size: 16px;
+	background-color: rgba(200,200,200,.8);
+	background-image:url('images/thewheel.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	font-family:'MrsEavesOT-Roman', georgia, serif;
+}
+nav {
+	float:right;
+}
+nav ul{
+	font-family: 'EngraversLTStdBoldFace', serif;
+	list-style-type:none;
+}
+nav li {
+	float:left;
+	margin:.5em 1em;
+}
+header {
+	height: 100vh;
+}
+header div {
+	float:left;
+	text-align:center;
+	padding:0em 0 0 0;
+	width:400px;
+}
+h1{
+	font-family:'BickhamScriptPro-Semibold', serif;
+	font-size:4em;
+}
+p{
+	margin: 0em 0em 0em .5em;
+	width: 22em;
+}
+h2{
+	font-size: 2em;
+}
+#slogan{
+	font-style: italic;
+	font-size: 1.5em;
+}
+#author{
+	font-family:'EngraversLTStdBoldFace', serif;
+	margin-left:0;
+	font-size:1.25em;
+}
+#description{
+	margin: 0em 0em 0em 0em;
+	background-color: rgba(210,210,210,.8);
+	line-height: 1.5em;
+	padding: 1em;
+}
+#subheading{
+	background-color: rgba(230,230,230,.9);
+	padding: 2em 2em 2em 2em;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
