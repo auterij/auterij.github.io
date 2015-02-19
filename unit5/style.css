@@ -1,0 +1,47 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	color:#282828;
+	background-image:url('images/neworleans.jpg');
+	font-size:16px;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+header div{
+	padding: 1em 1em 1em 1em;
+	text-align: center;
+	color:#F7F7F7;
+	background-color: rgba(40,40,40,1);
+}
+h1{
+	font-size: 4em;
+	color:#1d53ba;
+	font-family: 'Lato', sans-serif;
+	font:'lato';
+}
+.content{
+	width:25em;
+	line-height:1.5em;
+	background-color: rgba(216,221,225,.8);
+}
+.expander{
+	padding:1em;
+}
+#part1 span, #part2 span, #part3 span{
+	display:none;
+}
+#part1:hover span, #part2:hover span, #part3:hover span{
+	display:block;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
