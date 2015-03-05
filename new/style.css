@@ -120,6 +120,12 @@ h2{
 	padding: 1em;
 	width:30%;
 }
+#description span{
+	font-style:italic;
+}
+.ref{
+	font-size: .75em;
+}
 #subheading{
 	padding: 4em 2em 0em 2em;
 	margin:0 auto;
