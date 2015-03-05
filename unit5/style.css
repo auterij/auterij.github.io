@@ -6,17 +6,16 @@
 }
 body{
 	color:#282828;
-	background-image:url('images/neworleans.jpg');
+	background-image:url('images/metro-diagram.jpg');
 	font-size:16px;
 	background-repeat:no-repeat;
-	background-size: cover;
+	background-size: 50em;
 	background-attachment:fixed;
 }
 header div{
-	padding: 1em 1em 1em 1em;
-	text-align: center;
+	padding: 0 1em 1em 1em;
 	color:#F7F7F7;
-	background-color: rgba(40,40,40,1);
+	float:none;
 }
 h1{
 	font-size: 4em;
@@ -28,14 +27,18 @@ h1{
 	width:25em;
 	line-height:1.5em;
 	background-color: rgba(216,221,225,.8);
+	float:right;
 }
-.expander{
-	padding:1em;
+#part1, #part2, #part3{
+	float:right;
 }
-#part1 span, #part2 span, #part3 span{
+.setup #part1 span, .setup #part2 span, .setup #part3 span{
 	display:none;
 }
 #part1:hover span, #part2:hover span, #part3:hover span{
+	display:block;
+}
+.expander:hover{
 	display:block;
 }
 .clearfix:after { 
@@ -44,4 +47,17 @@ h1{
 	display: block; 
 	height: 0; 
 	clear: both;
+}
+#button1, #button2, #button3{
+	font-size:10em;
+	color:rgba(0,0,0,1);
+}
+#button1{
+	margin:0em 0 0 2.7em;
+}
+#button2{
+	margin:-.825em 0 0 2.525em;
+}
+#button3{
+	margin:-.825em 0 0 2.35em;
 }

@@ -64,6 +64,8 @@ p{
 }
 h2{
 	font-size: 2em;
+	width:20em;
+	text-align: justify;
 }
 #slogan{
 	font-style: italic;
@@ -83,6 +85,7 @@ h2{
 #subheading{
 	background-color: rgba(230,230,230,.9);
 	padding: 2em 2em 2em 2em;
+	margin:0;
 }
 .clearfix:after { 
 	content: "."; 
