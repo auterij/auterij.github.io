@@ -49,14 +49,14 @@ nav a{
 	color:#3D3F40;
 	text-decoration: none;
 }
-header{
-	height:7em;
-}
 header div {
 	float:left;
 	text-align:center;
 	padding:0em 0 0 0;
 	width:400px;
+}
+header{
+	clear:both;
 }
 h1{
 	font-family:'BickhamScriptPro-Semibold', serif;
@@ -78,9 +78,11 @@ h2{
 	font-family:'BickhamScriptPro-Semibold', serif;
 	font-size: .5em;
 	line-height:.4em;
-	text-align: center;
+	text-align: right;
 	position:relative;
-	color:rgba(0,0,0,0);
+	color:#3D3F40;
+	max-height:15em;
+	overflow:hidden;
 }
 .background+.background{
 	margin:4em 0 0 0;
@@ -88,6 +90,7 @@ h2{
 .background .link{
 	position:absolute;
 	top:1em;
+	right:0;
 	font-family:'EngraversLTStdBoldFace', serif;
 	font-size: 5em;
 	padding:.5em;
@@ -96,14 +99,13 @@ h2{
 .background a{
 	text-align: center;
 	text-decoration: none;
-	color:rgba(230,230,230,.2);
+	color:rgb(230,230,230);
 	display:block;
 }
-.link a:hover{
-	color:rgba(230,230,230,1);
-}
-.link:hover~p{
-	color:rgba(0,0,0,1);
+.background p{
+	-webkit-user-select: none;      
+	-moz-user-select: none;
+	-ms-user-select: none;
 }
 #slogan{
 	font-style: italic;
