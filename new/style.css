@@ -45,6 +45,10 @@ nav li {
 	float:left;
 	margin:.5em 1em;
 }
+nav a{
+	color:#3D3F40;
+	text-decoration: none;
+}
 header{
 	height:7em;
 }
@@ -96,7 +100,7 @@ h2{
 	display:block;
 	padding:1em,0,1em,0;
 }
-.background a:hover{
+.link a:hover{
 	color:rgba(230,230,230,1);
 }
 .link:hover~p{
@@ -116,10 +120,12 @@ h2{
 	line-height: 1.5em;
 	padding: 1em;
 	width:30%;
+	position:relative;
 }
 #subheading{
 	padding: 4em 2em 0em 2em;
 	margin:0 auto;
+	position:relative;
 }
 .clearfix:after { 
 	content: "."; 
