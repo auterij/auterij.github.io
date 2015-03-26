@@ -1,0 +1,33 @@
+@media only screen and (min-width:0px) and (max-width:1200px) {
+  body {
+    background-image:url('images/thewheel.jpg');
+    background-size:75em;
+  }
+	#longabout{
+		display:none;
+  }
+	#shortabout{
+		display:inline;
+  }
+}
+@media only screen and (min-width:1201px) and (max-width:5000px) {
+	#longabout{
+		display:inline;
+	}
+	#shortabout{
+		display:none;
+	}
+}
+@media only screen and (min-width:670px) and (max-width:740px) {
+	nav{
+		display:none;
+	}
+}
+@media only screen and (min-width:0px) and (max-width:670px) {
+	nav{
+		display:none;
+	}
+	.buttons{
+		display:none;
+	}
+}
