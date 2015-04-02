@@ -126,7 +126,7 @@
 		if ( swipeDirection == 'left' ) {
 			// REPLACE WITH YOUR ROUTINES
 			/*swipedElement.style.backgroundColor = 'orange'*/
-			swipedElement.window.location.href="about.html";
+			window.location.href="about.html";
 		} else if ( swipeDirection == 'right' ) {
 			// REPLACE WITH YOUR ROUTINES
 			swipedElement.style.backgroundColor = 'green';
@@ -142,7 +142,6 @@
 </script>
 </head>
 <body>
-	<div id="swipeBox" ontouchstart="touchStart(event,'body');"ontouchend="touchEnd(event);" ontouchmove="touchMove(event);" ontouchcancel="touchCancel(event);">
 	<header class="clearfix">
 		<div class="clearfix" id="logo">
 			<h1>Trapped on the Wheel</h1>
@@ -418,6 +417,5 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 	</section>
-	</div>
 </body>
 </html>
