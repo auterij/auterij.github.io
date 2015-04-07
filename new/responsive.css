@@ -1,7 +1,6 @@
 @media only screen and (min-width:0px) and (max-width:1200px) {
   body {
     background-image:url('images/thewheel.jpg');
-    background-size:75em;
   }
 	#longabout{
 		display:none;
@@ -20,14 +19,21 @@
 }
 @media only screen and (min-width:670px) and (max-width:740px) {
 	nav{
-		display:none;
+		float:left;
 	}
 }
 @media only screen and (min-width:0px) and (max-width:670px) {
 	nav{
-		display:none;
+		float:left;
 	}
 	.buttons{
-		display:none;
+		float:left;
+		width:75%;
+	}
+	.background{
+		text-align: left;
+	}
+	.background .link{
+		left:0;
 	}
 }
